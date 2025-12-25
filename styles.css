@@ -1,0 +1,16 @@
+ /*Aplique estos estilos para sobrescribir las clase de Bootstrap con los radios y poder cambiarle el color de fondo a los radio*/
+    /*Cambia el color de fondo y del borde cuando está seleccionado*/
+    .form-check-input:checked {
+        background-color: #9c9c9c;
+        border-color: #9c9c9c;
+    }
+
+    /*Cambia el color del resplandor (foco) para que combine*/
+    .form-check-input:focus {
+        border-color: #9c9c9c;
+        /* Color con transparencia */
+        box-shadow: 0 0 0 0.25rem rgba(114, 114, 114, 0.25);
+    }
+    .to-footer,.container-title{
+        background: #F7F7F7;
+    }
