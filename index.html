@@ -27,22 +27,22 @@
                     <form class="container">
                         <div class="row row-cols-3">
                             <div class="col mb-3">
-                                <label class="form-label"><strong>Card #</strong></label>
-                                <input type="number" class="form-control" placeholder="XXXXXXXXXXXXXXX"
+                                <label for="Card" class="form-label"><strong>Card #</strong></label>
+                                <input id="Card" type="number" class="form-control" placeholder="XXXXXXXXXXXXXXX"
                                     aria-describedby="number">
                             </div>
                             <div class="col mb-3">
-                                <label class="form-label"><strong>CVC #</strong></label>
-                                <input type="password" class="form-control" placeholder="00000"
+                                <label for="CVC" class="form-label"><strong>CVC #</strong></label>
+                                <input id="CVC" type="password" class="form-control" placeholder="00000"
                                     aria-describedby="password">
                             </div>
                             <div class="col mb-3">
-                                <label class="form-label"><strong>Amount</strong></label>
+                                <label for="Amount" class="form-label"><strong>Amount</strong></label>
                                 <div class="d-flex">
                                     <div><label for=""><strong>$</strong></label>
                                     </div>
                                     <div class="w-100">
-                                        <input type="number" class="form-control" placeholder="Amount"
+                                        <input id="Amount" type="number" class="form-control" placeholder="Amount"
                                             aria-describedby="number">
                                     </div>
                                 </div>
@@ -50,27 +50,31 @@
                         </div>
                         <div class="row row-cols-2">
                             <div class="col mb-3">
-                                <label class="form-label"><strong>First Name</strong></label>
-                                <input type="text" class="form-control" aria-describedby="text">
+                                <label for="First-Name" class="form-label"><strong>First Name</strong></label>
+                                <input id="First-Name" type="text" class="form-control" aria-describedby="text">
                             </div>
                             <div class="col mb-3">
-                                <label class="form-label"><strong>Last Name</strong></label>
-                                <input type="text" class="form-control" aria-describedby="text">
+                                <label for="Last-Name" class="form-label"><strong>Last Name</strong></label>
+                                <input id="Last-Name" type="text" class="form-control" aria-describedby="text">
                             </div>
                         </div>
                         <div class="row row-cols-3">
                             <div class="col mb-3 w-50">
-                                <label class="form-label"><strong>City</strong></label>
-                                <input type="text" class="form-control" aria-describedby="text">
+                                <label for="City" class="form-label"><strong>City</strong></label>
+                                <input id="City" type="text" class="form-control" aria-describedby="text">
                             </div>
                             <div class="col mb-1 w-25">
                                 <label class="form-label"><strong>State</strong></label>
-                                <input type="text" class="form-control" placeholder="Pick a state"
-                                    aria-describedby="text">
+                                <select class="form-select" id="inputGroupSelect01">
+                                    <option selected>Option Selections</option>
+                                    <option value="1">Option 1</option>
+                                    <option value="2">Option 2</option>
+                                    <option value="3">Option 3</option>
+                                </select>
                             </div>
                             <div class="col mb-1 w-25">
-                                <label class="form-label"><strong>Postal code</strong></label>
-                                <input type="number" class="form-control" aria-describedby="number">
+                                <label for="Postal" class="form-label"><strong>Postal code</strong></label>
+                                <input id="Postal" type="number" class="form-control" aria-describedby="number">
                             </div>
                         </div>
                         <div class="row row-cols-2">
