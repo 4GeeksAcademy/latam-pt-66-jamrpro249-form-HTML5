@@ -14,3 +14,6 @@
     .to-footer,.container-title{
         background: #F7F7F7;
     }
+    .label_check :hover{
+        cursor: pointer;
+    }
